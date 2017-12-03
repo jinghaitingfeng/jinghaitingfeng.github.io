@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      iOS手势与变形
-subtitle:   手势与变形基础知识笔记
-date:       2016-10-10
-author:     BY
+title:      深刻理解TCP协议
+subtitle:   TCP/IP协议栈基础
+date:       2017-12-03
+author:     jinghaitingfeng
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - iOS
-    - iOS开发基础
+    - NetWork
+    - TCP/IP协议栈
 ---
 
 >手势在用户交互中有着举足轻重的作用，这篇文字简单的介绍了iOS中的手势，并通过手势对控件进行变形处理。

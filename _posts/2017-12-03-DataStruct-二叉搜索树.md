@@ -1,14 +1,13 @@
 ---
 layout:     post
-title:      JSON转模型 For YYModel
-subtitle:   使用 YYModel库 快速完成 JSON 转模型
-date:       2016-10-26
-author:     BY
+title:      二叉搜索树
+subtitle:   树
+date:       2017-12-03
+author:     jinghaitingfeng
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - iOS
-    - 开发技巧
+    - Data Struct
 ---
 
 >JSON转模型是我们做iOS开发的基础技能，本文将通过[YYModel](https://github.com/ibireme/YYModel)这个框架安全快速的完成JSON到模型的转换，其中还会介绍到一款好用的插件[ESJsonFormat](https://github.com/EnjoySR/ESJsonFormat-Xcode)。
