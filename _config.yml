@@ -1,8 +1,8 @@
 # Site settings
-title: my blog
-SEOTitle: 静海听风的博客 | my blog
+title: jinghaitingfeng's blog
+SEOTitle: 静海听风的博客 | jinghaitingfeng's blog
 header-img: img/post-bg-desk.jpg
-email: bai_yetao@126.com
+#email: bai_yetao@126.com
 description: "Every failure is leading towards success."
 keyword: "C/C++, 后台开发, 机器学习"
 url: "http://jinghaitingfeng.github.io"          # your host, for absolute URL
