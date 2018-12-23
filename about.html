@@ -2,13 +2,12 @@
 layout: page
 title: "About"
 description: "Hey, This is jinghaitingfeng."
-header-img: "img/post-bg-coffee.jpeg"
+header-img: "img/微信图片_20181223121559.jpg"
 ---
 
 <!-- Language Selector -->
 <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
 </select>
 
 <!-- Chinese Version -->
@@ -16,25 +15,6 @@ header-img: "img/post-bg-coffee.jpeg"
     <!--copied from markdown -->
     <p>怕什么真理无穷 进一寸有一寸的欢喜</p>
     <p>Hey，我是<strong>jinghaitingfeng</strong>，C/C++后台程序员，现暂居北京，就职某互联网公司。</p>
-    <h5>Talks</h5>
-
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-</div>
-
-<!-- English Version -->
-<div class="en post-container">
-    <p>Victory belongs to the most persevering.</p>
-    <p>Hi, I am <strong>jinghaitingfeng</strong>,an C++ software engineer and currently working in BeiJing</p>
-    <h5>Talks</h5>
-
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    </ul>
 </div>
 
 <!-- Handle Language Change -->
@@ -77,21 +57,6 @@ header-img: "img/post-bg-coffee.jpeg"
     _render();
 </script>
 
-{% if site.duoshuo_username %}
-<!-- 多说评论框 start -->
-<div class="comment">
-    <!-- This id is used for indexing my loss comments forcedly -->
-    <div class="ds-thread"
-    {% if site.duoshuo_username == "qiubaiying" %}
-        data-thread-id="0ee040117ec56f17aa7e2523d1eae19b"
-    {% else %}
-    <!-- U can just use this key generated to index comments at page about -->
-        data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
-
-    data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
-</div>
 <!-- 多说评论框 end -->
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
